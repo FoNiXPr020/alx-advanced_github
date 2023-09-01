@@ -1,9 +1,13 @@
 #!/bin/bash
 
+if [ "$0" = "alxgit" ]; then
+  shift
+fi
+
 if [ $# -lt 2 ]; then
   echo "Usage: $0 <commit_message> <branch_name>"
   echo "OR"
-  echo "Use: alxgit <commit_message> <branch_name>"
+  echo "Usage: alxgit <commit_message> <branch_name>"
   exit 1
 fi
 

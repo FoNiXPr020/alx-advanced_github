@@ -55,6 +55,8 @@ read repo
 
 repo=$(fix_repo_name "$repo")
 
+cd /
+
 git clone https://$token@github.com/$name/$repo
 
 if [ -n "$email" ]; then
