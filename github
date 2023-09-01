@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ $# -lt 2 ]; then
+  echo "Usage: $0 <commit_message> <branch_name>"
+  echo "OR"
+  echo "Use: alxgit <commit_message> <branch_name>"
+  exit 1
+fi
+
+commit_message="$1"
+branch_name="$2"
+
+git add .
+
+git commit -m "$commit_message"
+
+git push origin "$branch_name"

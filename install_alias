@@ -1,0 +1,16 @@
+#!/bin/bash
+
+alias_to_add="alxgit='./github'"
+
+if grep -q "alias alxgit='./github'" ~/.bashrc; then
+  echo "Alias 'alxgit' already exists in ~/.bashrc."
+else
+  echo "Adding alias to ~/.bashrc..."
+  echo "alias $alias_to_add" >> ~/.bashrc
+  echo "Alias added successfully."
+fi
+
+chmod +x install_alias
+echo "Set install_alias.sh executable"
+
+echo "Installation completed."

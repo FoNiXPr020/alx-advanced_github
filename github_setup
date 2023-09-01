@@ -1,0 +1,63 @@
+#!/bin/bash
+
+function validate_token() {
+  local token="$1"
+  local response=$(curl -s -H "Authorization: token $token" https://api.github.com/user)
+  if [[ $response == *"message"* ]]; then
+    return 1
+  else
+    return 0
+  fi
+}
+
+function is_valid_email() {
+  local email="$1"
+  if [[ "$email" =~ ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ ]]; then
+    return 0
+  else
+    return 1
+  fi
+}
+
+function fix_repo_name() {
+  local repo_name="$1"
+  if [[ "$repo_name" != *".git" ]]; then
+    repo_name="${repo_name}.git"
+  fi
+  echo "$repo_name"
+}
+
+while true; do
+  echo "Please enter your GitHub personal access token: "
+  read token
+  if [ -n "$token" ] && validate_token "$token"; then
+    break
+  else
+    echo "Invalid or unauthorized token. Please enter a valid GitHub personal access token."
+  fi
+done
+
+echo "Please enter your GitHub UserName here: "
+read name
+
+while true; do
+  echo "Please enter your email: "
+  read email
+  if is_valid_email "$email"; then
+    break
+  else
+    echo "Invalid email format. Please enter a valid email."
+  fi
+done
+
+echo "Please enter your Repository Name here: "
+read repo
+
+repo=$(fix_repo_name "$repo")
+
+git clone https://$token@github.com/$name/$repo
+
+if [ -n "$email" ]; then
+  git config --global user.email "$email"
+  git config --global user.name "$name"
+fi
