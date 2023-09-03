@@ -23,10 +23,10 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 
 1. Alias definition command for push all in once.
 ```sh
-  alxgit "Your commit here"
+  root$# : alxgit "Your commit here"
 ```
 ```sh
-  alxgit "Your commit here" "Your branch here"
+  root$# : alxgit "Your commit here" "Your branch here"
 ```
 
 2. Alias definition command for setup repository.
@@ -35,7 +35,7 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 	* Enter your Email : email@example.com
 	* Enter your Repository Name : Repo.git
 ```sh
-  alxsetup
+  root$# : alxsetup
 ```
 
 ## Installation Video
