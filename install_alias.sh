@@ -47,4 +47,7 @@ else
   echo "alxgit Alias added successfully."
 fi
 
+rm "$source_file"
+rm "$source_setup"
+
 echo "Installation completed."
