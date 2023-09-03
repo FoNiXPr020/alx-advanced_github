@@ -48,5 +48,3 @@ GitHub Repository Commit and Push Script - ALX Students.
 ## Original Version
 
 Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github) Special thanks to him.
-
-TEST
