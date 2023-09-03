@@ -23,6 +23,10 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 3 . To apply the changes, either restart your shell or run the following command:
 ```sh
   source ~/.bashrc
+  source ~/.bash_aliases
+```
+```sh
+  source ~/.bash_aliases
 ```
     
 ## Installation Video
