@@ -22,7 +22,7 @@ alias_to_git="alias alxgit='C:/Github/./github'"
 alias_to_setup="alias alxsetup='C:/Github/./github_setup'"
 
 if grep -q "$alias_to_setup" ~/.bashrc || grep -q "$alias_to_setup" ~/.bash_aliases; then
-  echo "Alias 'alxgit' already exists in ~/.bashrc or ~/.bash_aliases."
+  echo "Alias 'alxsetup' already exists in ~/.bashrc or ~/.bash_aliases."
 else
   if [ -f ~/.bash_aliases ]; then
     echo "Adding alias to ~/.bash_aliases..."
