@@ -37,4 +37,4 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 
 ## Installation Video
 
-<a href="https://www.youtube.com/c/@fonixpr012" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@fonixpr012" height="30" width="40" /></a> [FoNiX - Advanced Github Push ](https://www.youtube.com/@FoNiXPr012) Moroccan
+<a href="https://www.youtube.com/@fonixpr012" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@fonixpr012" height="30" width="40" /></a> [FoNiX - Advanced Github Push ](https://www.youtube.com/@FoNiXPr012) Moroccan
