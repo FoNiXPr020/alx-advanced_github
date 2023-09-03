@@ -43,7 +43,7 @@ GitHub Repository Commit and Push Script - ALX Students.
 
 ## Installation Video
 
-<a href="https://www.youtube.com/@fonixpr012" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@fonixpr012" height="30" width="40" /></a> [FoNiX - Advanced Github Push ](https://youtu.be/MfEXOW-oPQI) Moroccan
+<a href="https://www.youtube.com/watch?v=Aqt2lb-gUi0" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="watch?v=Aqt2lb-gUi0" height="30" width="40" /></a> [FoNiX - Advanced Github Push ](https://www.youtube.com/watch?v=Aqt2lb-gUi0) Moroccan
 
 ## Original Version
 
