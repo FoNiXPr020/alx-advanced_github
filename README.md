@@ -33,7 +33,7 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 	* Enter your Token : API GitHub token it should be valid please.
 	* Enter your GitHub UserName : UserName.
 	* Enter your Email : email@example.com.
-	* Enter your Repository Name : Repo.git OR Repo.
+	* Enter your Repository Name : Repo.git or Repo.
 ```sh
   alxsetup
 ```
