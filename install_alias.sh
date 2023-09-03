@@ -8,7 +8,7 @@ chmod u+x "$0"
 source_file="github"
 source_setup="github_setup"
 
-destination_dir="$HOME/Github/"
+destination_dir="$HOME/Github"
 
 if [ ! -d "$destination_dir" ]; then
 	  mkdir -p "$destination_dir"
