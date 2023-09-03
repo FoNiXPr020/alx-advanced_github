@@ -25,7 +25,7 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 ```sh
   alxgit "Your commit here"
 ```
-# Or
+OR
 ```sh
   alxgit "Your commit here" "Your branch here"
 ```
