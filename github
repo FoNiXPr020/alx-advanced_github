@@ -1,11 +1,14 @@
 #!/bin/bash
 # FoNiX - ALX Advanced GitHub Push : https://github.com/FoNiXPr020/alx-advanced_github
+# GitHub Commit and Push Script
 
 if [ "$0" = "alxgit" ]; then
   shift
 fi
 
 if [ $# -lt 1 ]; then
+  echo "Usage: alxgit <commit_message>"
+  echo "OR"
   echo "Usage: alxgit <commit_message> <branch_name>"
   exit 1
 fi

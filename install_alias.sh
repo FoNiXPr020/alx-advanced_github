@@ -1,5 +1,7 @@
 #!/bin/bash
 # FoNiX - ALX Advanced GitHub Push : https://github.com/FoNiXPr020/alx-advanced_github
+# Adding alias alxsetup.
+# Adding alias alxgit.
 
 chmod +x $0
 

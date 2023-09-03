@@ -1,5 +1,6 @@
 #!/bin/bash
 # FoNiX - ALX Advanced GitHub Push : https://github.com/FoNiXPr020/alx-advanced_github
+# Setup your clone repository to directory.
 
 chmod +x $0
 
