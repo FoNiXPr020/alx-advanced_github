@@ -27,18 +27,18 @@ GitHub Repository Commit and Push Script - ALX Students.
     
 ## Runnig commands
 
-1. Alias definition command for push all in once.
-```sh
-  alxgit "Your commit here" "Your branch here"
-```
-
-2. Alias definition command for setup repository.
+1. Alias definition command for setup repository.
 	* Enter your Token : API GitHub token it should be valid please.
 	* Enter your GitHub UserName : UserName
 	* Enter your Email : email@example.com
 	* Enter your Repository Name : Repo.git
 ```sh
   alxsetup
+```
+
+2. Alias definition command for commit and push all in once.
+```sh
+  alxgit "Your commit here" "Your branch here"
 ```
 
 ## Installation Video
