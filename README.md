@@ -31,9 +31,9 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 
 2. Alias definition command for setup repository.
 	* Enter your Token : API GitHub token it should be valid please.
-	* Enter your GitHub UserName : UserName.
-	* Enter your Email : email@example.com.
-	* Enter your Repository Name : Repo.git.
+	* Enter your GitHub UserName : UserName
+	* Enter your Email : email@example.com
+	* Enter your Repository Name : Repo.git
 ```sh
   alxsetup
 ```
