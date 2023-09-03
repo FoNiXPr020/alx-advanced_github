@@ -13,6 +13,11 @@ if [ $# -lt 1 ]; then
   exit 1
 fi
 
+if [ ! -d .git ]; then
+  echo "Error: This is not a Git repository. Please navigate to a valid Git repository directory."
+  exit 1
+fi
+
 commit_message="$1"
 
 if [ $# -ge 2 ]; then
