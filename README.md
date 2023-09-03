@@ -24,6 +24,8 @@ Original version from [ SmoxHakim ](https://github.com/smoxhakim/push_to_github)
 1. Alias definition command for push all in once.
 ```sh
   alxgit "Your commit here"
+  or
+  alxgit "Your commit here" "Your branch here"
 ```
 ```sh
   alxgit "Your commit here" "Your branch here"
