@@ -3,9 +3,19 @@
 
 chmod +x $0
 
-alias_to_add="alias alxgit='./github'"
+source_file="github"
+destination_dir="C:/Github/"
 
-if grep -q "alias alxgit='./github'" ~/.bashrc || grep -q "alias alxgit='./github'" ~/.bash_aliases; then
+if [ ! -d "$destination_dir" ]; then
+  mkdir -p "$destination_dir"
+  echo "Created directory: $destination_dir"
+fi
+
+cp "$source_file" "$destination_dir"
+
+alias_to_add="alias alxgit='C:/Github/./github'"
+
+if grep -q "$alias_to_add" ~/.bashrc || grep -q "$alias_to_add" ~/.bash_aliases; then
   echo "Alias 'alxgit' already exists in ~/.bashrc or ~/.bash_aliases."
 else
   if [ -f ~/.bash_aliases ]; then
@@ -17,7 +27,5 @@ else
   fi
   echo "Alias added successfully."
 fi
-
-echo "Set install_alias executable"
 
 echo "Installation completed."

@@ -1,12 +1,11 @@
 #!/bin/bash
+# FoNiX - ALX Advanced GitHub Push : https://github.com/FoNiXPr020/alx-advanced_github
 
 if [ "$0" = "alxgit" ]; then
   shift
 fi
 
 if [ $# -lt 1 ]; then
-  echo "Usage: $0 <commit_message> [<branch_name>]"
-   echo "OR"
   echo "Usage: alxgit <commit_message> <branch_name>"
   exit 1
 fi
