@@ -1,3 +1,9 @@
+<div align="center">
+  <a href="#">
+    <img src="https://i.imgur.com/dPLaB8d.png" alt="Betty" width="1000" height="440">
+  </a>
+</div>
+
 # FoNiX - ALX Advanced GitHub Push
 
 GitHub Repository Commit and Push Script - ALX Students.
